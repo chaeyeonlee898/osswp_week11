@@ -1,4 +1,3 @@
-# osswp_week11
 ---
 title: "간단 응원 앱" # Space 메타 제목
 emoji: “🎉”      # Space 대표 아이콘(이모지)
@@ -9,4 +8,3 @@ sdk_version: “3.0”   # Gradio버전
 app_file: “app.py”   # 실행 엔트리 파일
 pinned: false     # 프로필에 고정할지 여부
 ---
-# 간단 응원 앱
