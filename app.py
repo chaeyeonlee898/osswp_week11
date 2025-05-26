@@ -2,7 +2,7 @@ import gradio as gr
 
 def greet(name, enthusiasm): # Function called by Gradio
     """Takes the user's name and returns a cheerful message"""
-    return f"Cheer Up! {name}  {'🎉'+enthusiasm}"
+    return f"Cheer Up! {name}  {'🎉'*enthusiasm}"
 
 demo = gr.Interface(
     fn=greet,
